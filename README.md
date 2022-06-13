@@ -13,23 +13,27 @@ Início
      Q[4] = 20
      Q[5] = 36
      Q[6] = 30
-     Variavel valor1
-     Variavel valor2
-     Varivael quantidadesala
-     Escreva No bloco Q da universidade, existem 6 salas. Digite o numero da sala desejada:
-     Exiba O numero de pessoas da sala escolhida e Variavel Q valor
-     Escreva Para consultar a media de quantidade de alunos, informe o numero de salas que voce deseja consultar:
-     Ler quantidadesala
+     Variavel media
      Variavel i
      Faca
-     Soma + 1 na variavel i
-     Exibir Informe o numero da sala para consulta:
-     Ler valor1
-     Variavel soma = variavel soma + variavel Q[valor1-1]
-     Enquanto variavel i for menor que variavel quantidadesala
-     Fim Enquanto
-     variavel valor2 = variavel soma / variavael quantidadesala
-     Exibir media 
+     soma = soma + Q[i]
+     Acrescenta + 1 na variavel i
+     Enquanto i for menor que 6
+     Fim enquanto
+     Exibir A media de todas as salas e
+     Variavel n
+     Variavel s
+     Faca
+     Variavel media = varivael soma /6
+     Se variavel Q for menor que variavel media
+     Exibir A sala que esta acima da media
+     Se variavel Q for menor que variavel media
+     Exibibir a sala que esta abaixo da media
+     Fim se
+     Soma + 1 na variavel n
+     Soma + 1 na variavel s
+     Enquanto variavel n for menor que 6
+     Fim enquanto
      
 
 Fim
@@ -37,5 +41,5 @@ Fim
 
 --------------------------------------------------------
 
-![fluxograma](https://github.com/nathalysgomes/exercicio-sala/blob/main/exerciciosala1%20(1).png)
+![fluxograma](https://github.com/nathalysgomes/exercicio-sala/blob/feature/exerciciosala2.png)
 
